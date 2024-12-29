@@ -81,8 +81,3 @@ Feel free to connect with me via:
 - **[LinkedIn](https://www.linkedin.com/in/zenedwards/)**
 
 ---
-
-### Instructions
-1. Copy and paste the above content into a text editor (e.g., VS Code or Notepad++).
-2. Save the file as `README.md` in the root of your project.
-3. Commit the `README.md` file to your GitHub repository.  
