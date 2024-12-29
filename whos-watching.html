@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="profiles"> 
+    <!-- Profiles Section -->
+    <div id="profiles"> a
         <h1>Who's Watching?</h1>
-        <p></p>
         <div class="profile-container">
             <div class="profile" id="foryou-profile">
                 <img src="https://i.pinimg.com/736x/1b/a2/e6/1ba2e6d1d4874546c70c91f1024e17fb.jpg" alt="You">
@@ -18,10 +18,30 @@
         </div>
     </div>
 
+    <!-- Loading Screen (Hidden by Default) -->
+    <div id="loading-screen" style="display: none;">
+        <img src="https://variety.com/wp-content/uploads/2019/02/netflix_newlogoanimation.gif" alt="Loading GIF">
+        <!-- Netflix Intro Sound -->
+        <audio id="netflix-sound" src="netflix-intro.mp3" preload="auto"></audio>
+    </div>
+
     <script>
-        // Navigate to For You Page
-        document.getElementById('foryou-profile').addEventListener('click', () => {
-            window.location.href = "foryou.html";
+        const profile = document.getElementById('foryou-profile');
+        const profilesSection = document.getElementById('profiles');
+        const loadingScreen = document.getElementById('loading-screen');
+        const sound = document.getElementById('netflix-sound');
+
+        profile.addEventListener('click', () => {
+            profilesSection.style.display = 'none';
+
+            loadingScreen.style.display = 'flex';
+            sound.play();
+            sound.onended = () => {
+                window.location.href = "foryou.html";
+            };
+            setTimeout(() => {
+                window.location.href = "foryou.html";
+            }, 3000);
         });
     </script>
 </body>
