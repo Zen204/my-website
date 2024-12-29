@@ -58,7 +58,12 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 <img width="1000" length="1000" alt="Screenshot 2024-12-29 at 1 14 00 AM" src="https://github.com/user-attachments/assets/d709704a-03ae-47ff-946e-da4e919bd9ca" />
 
+
+
 <img width="1000" length="1000" alt="Screenshot 2024-12-29 at 1 14 10 AM" src="https://github.com/user-attachments/assets/6a3eec82-6a73-4723-b557-2cc6aa93d79b" />
+
+
+
 
 <img width="1000" length="1000" alt="Screenshot 2024-12-29 at 1 14 42 AM" src="https://github.com/user-attachments/assets/a9af3a32-c14b-4d41-a00e-cceb9073b369" />
 
