@@ -73,8 +73,8 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 ## Contact
 
 Feel free to connect with me via:
-- **Email**: [YourEmail@example.com](zanydaedwards@brandeis.edu)
-- **LinkedIn**: [linkedin.com/in/YourProfile](https://www.linkedin.com/in/zenedwards/)
+-  **[Email](zanydaedwards@brandeis.edu)**
+- **[LinkedIn](https://www.linkedin.com/in/zenedwards/)**
 
 ---
 
