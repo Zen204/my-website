@@ -183,7 +183,7 @@ a.text-link {
 /* For You Page */
 .profile-picture {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 800px;
     flex-direction: column;
     align-items: center;
