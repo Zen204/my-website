@@ -33,6 +33,10 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 ## How to Use
 
+Follow the link to my site: zen204.github.io/my-website/
+
+**OR**
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/YourGitHubUsername/portfolio-website.git
