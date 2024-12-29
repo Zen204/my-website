@@ -26,7 +26,7 @@ a.text-link {
     position: fixed; 
     top: 0;
     width: 100%; 
-    height: 100px; 
+    height: 80px; 
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -41,18 +41,27 @@ a.text-link {
 }
 
 .top-bar h1 {
-    color: #e01d2d;
+    color: #ff0015;
     font-size: 2.5rem;
+    margin: 0; 
+    padding: 0; 
+    line-height: 1;
 }
 
 .menu-button {
+    color: #da0400; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1;
     font-size: 2.7rem;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
+
 }
 .menu-button:hover {
-    transform: scale(1.2); 
-    color: #db0805; 
+    transform: scale(1.3); 
+    color: #ff0000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Sidebar */
