@@ -56,9 +56,11 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 ## Screenshots
 
-![Screenshot of Home Page](link-to-home-screenshot.png)
-![Screenshot of Projects Page](link-to-projects-screenshot.png)
-![Screenshot of Skills Page](link-to-skills-screenshot.png)
+<img width="1470" alt="Screenshot 2024-12-29 at 1 14 00 AM" src="https://github.com/user-attachments/assets/c8b58434-70cf-4b39-b558-8be56ce8cca8" />
+<img width="1470" alt="Screenshot 2024-12-29 at 1 14 42 AM" src="https://github.com/user-attachments/assets/a63e0342-8fea-4fbf-9e13-a0f8a100639d" />
+<img width="1470" alt="Screenshot 2024-12-29 at 1 14 10 AM" src="https://github.com/user-attachments/assets/28547a20-396e-4431-bbdd-d9369eaf6c87" />
+
+
 
 ---
 
