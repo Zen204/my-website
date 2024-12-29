@@ -56,9 +56,10 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 ## Screenshots
 
-<img width="1470" alt="Screenshot 2024-12-29 at 1 14 00 AM" src="https://github.com/user-attachments/assets/c8b58434-70cf-4b39-b558-8be56ce8cca8" />
-<img width="1470" alt="Screenshot 2024-12-29 at 1 14 42 AM" src="https://github.com/user-attachments/assets/a63e0342-8fea-4fbf-9e13-a0f8a100639d" />
-<img width="1470" alt="Screenshot 2024-12-29 at 1 14 10 AM" src="https://github.com/user-attachments/assets/28547a20-396e-4431-bbdd-d9369eaf6c87" />
+<img width="1000" alt="Screenshot 2024-12-29 at 1 14 00 AM" src="https://github.com/user-attachments/assets/d709704a-03ae-47ff-946e-da4e919bd9ca" />
+<img width="1000" alt="Screenshot 2024-12-29 at 1 14 10 AM" src="https://github.com/user-attachments/assets/6a3eec82-6a73-4723-b557-2cc6aa93d79b" />
+<img width="1000" alt="Screenshot 2024-12-29 at 1 14 42 AM" src="https://github.com/user-attachments/assets/a9af3a32-c14b-4d41-a00e-cceb9073b369" />
+
 
 
 
