@@ -33,7 +33,7 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 ## How to Use
 
-Follow the link to my site: zen204.github.io/my-website/
+Follow the link to my site: https://zen204.github.io/my-website/
 
 **OR**
 
