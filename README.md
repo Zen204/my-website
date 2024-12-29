@@ -62,14 +62,6 @@ Welcome to my portfolio website repository! This project showcases my skills, ex
 
 ---
 
-## Future Improvements
-
-- Implementing dark/light mode toggle for user preference.
-- Adding a blog section to share insights and tutorials.
-- Enhancing accessibility for improved usability.
-
----
-
 ## Contact
 
 Feel free to connect with me via:
