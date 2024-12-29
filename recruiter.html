@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Zen Edwards</h1>
+        <div class="menu-button" onclick="toggleSidebar()">☰</div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-button" onclick="toggleSidebar()">✖</button>
+        <a href="whos-watching.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+    </div>
+
+    <div id="recruiter-page" class="content-page">
+        <div class="profile-picture">
+            <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW1kM3dpZmdtdmVjdm1vb2o5cDVwa213MGJjbXcyN3lsYmt3dTdiNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Profile Picture">
+            <div class="profile-buttons">
+                <button class="resume-button" onclick="window.location.href='Zen_Edwards_Resume copy.pdf'"> ▶ Resume</button>
+                <button class="contact-button" onclick="window.location.href='mailto:zanydaedwards@brandeis.edu'">ⓘ Contact Me</button>
+        </div>
+    </div>
+        <div class="section-title">Continue Watching for You</div>
+        <div class="continue-watching" id="bottom-images"></div>
+    </div>
+
+    <div class="movie-title">
+        <div class="movie-container">
+            <a href="education.html">
+                <img src="school.jpg" alt="School">
+                <span class="movie-label">▶ Education</span>
+            </a>
+        </div>
+        <div class="movie-container">
+            <a href="projects.html">
+                <img src="projects.jpg" alt="Projects">
+                <span class="movie-label">▶ Projects</span>
+            </a>
+        </div>
+        <div class="movie-container">
+            <a href="skills.html">
+                <img src="skills.jpg" alt="Skills">
+                <span class="movie-label">▶ Skills</span>
+            </a>
+        </div>
+        <div class="movie-container">
+            <a href="experience.html">
+                <img src="work.jpg" alt="Work">
+                <span class="movie-label">▶ Experience</span>
+            </a>
+        </div>
+    </div>
+    
+    
+    <!-- Pop-up container -->
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <button class="close-popup" onclick="closePopup()">✖</button>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+    
+    
+    
+    <footer id="footer">
+        <p>&copy; 2024 ZenEdwards. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.style.display = sidebar.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+
+        addMovieTiles('bottom-images');
+
+        function showPopup(text) {
+    const popup = document.getElementById('popup');
+    const popupText = document.getElementById('popup-text');
+    popupText.textContent = text; // Set the text inside the pop-up
+    popup.classList.remove('hidden'); // Show the pop-up
+}
+
+function closePopup() {
+    const popup = document.getElementById('popup');
+    popup.classList.add('hidden'); // Hide the pop-up
+}
+
+    </script>
+</body>
+</html>
