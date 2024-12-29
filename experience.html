@@ -14,8 +14,18 @@
         </div>
         <div class="movie-content">
             <div class="movie-video">
-                <img src="work.jpg" alt="Education Video" class="placeholder-video">
-            </div>
+                <img src="experience.html" alt="Projects Video" class="placeholder-video">
+                <div class="audio-player">
+                    <button id="playPauseButton">▶</button>
+                    <span id="currentTime">0:00</span> /
+                    <span id="duration">0:00</span>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                </div>
+                <audio id="audio" src="about-experience.mp3"></audio>
+            </div>      
+            
             <div class="movie-description">
                 <h2>About My Experience</h2>
                 <ul> 
@@ -37,5 +47,59 @@
     <footer>
         <p>&copy; 2024 Zen Edwards. All rights reserved.</p>
     </footer>
+
+    <script>
+        const audio = document.getElementById('audio');
+const playPauseButton = document.getElementById('playPauseButton');
+const currentTimeDisplay = document.getElementById('currentTime');
+const durationDisplay = document.getElementById('duration');
+const progressBar = document.getElementById('progressBar');
+const progressBarContainer = document.querySelector('.progress-bar-container');
+
+playPauseButton.addEventListener('click', () => {
+    if (audio.paused) {
+        audio.play();
+        playPauseButton.textContent = '⏸'; 
+    } else {
+        audio.pause();
+        playPauseButton.textContent = '▶'; 
+    }
+});
+
+audio.addEventListener('timeupdate', () => {
+    const currentTime = Math.floor(audio.currentTime);
+    const duration = Math.floor(audio.duration);
+    currentTimeDisplay.textContent = formatTime(currentTime);
+    durationDisplay.textContent = formatTime(duration);
+
+    const progressPercent = (currentTime / duration) * 100;
+    progressBar.style.width = progressPercent + '%';
+});
+
+progressBarContainer.addEventListener('click', (event) => {
+    const containerWidth = progressBarContainer.offsetWidth;
+    const clickX = event.offsetX;
+    const duration = audio.duration;
+    const newTime = (clickX / containerWidth) * duration;
+    audio.currentTime = newTime;
+});
+
+audio.addEventListener('ended', () => {
+    playPauseButton.textContent = '↺'; 
+    playPauseButton.addEventListener('click', () => {
+        audio.currentTime = 0; 
+        audio.play();
+        playPauseButton.textContent = '⏸'; 
+    }, { once: true }); 
+});
+
+function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${minutes}:${secs.toString().padStart(2, '0')}`;
+}
+
+
+    </script>
 </body>
 </html>
