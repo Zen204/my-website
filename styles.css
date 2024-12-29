@@ -198,6 +198,28 @@ a.text-link {
     margin-bottom: 20px;
 }
 
+
+.profile-overlay {
+    position: absolute;
+    bottom: 100px; 
+    left: 30px;
+    z-index: 15; 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 45%;
+    font-size: 1.4rem;
+    line-height: 1.3;
+}
+.profile-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(236, 251, 31);
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
 .profile-buttons {
     position: absolute;
     bottom: 50px; 
