@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    margin: 0;
+    margin-bottom: 10;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -26,6 +26,7 @@ a.text-link {
     position: fixed; 
     top: 0;
     width: 100%; 
+    height: 100px; 
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -45,7 +46,7 @@ a.text-link {
 }
 
 .menu-button {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -185,6 +186,25 @@ a.text-link {
 .profile p {
     margin-top: 0.5rem;
     font-size: 1.2rem;
+}
+
+/* Loading Screen */
+
+#loading-screen {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    background-color: black;
+    overflow: hidden; 
+}
+
+#loading-screen img {
+    transform: rotate(90deg); 
+    width: 100vh; 
+    height: 100vw;
+    object-fit: cover; 
 }
 
 /* For You Page */
