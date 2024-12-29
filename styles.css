@@ -64,6 +64,8 @@ a.text-link {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+
+
 /* Sidebar */
 .sidebar {
     position: fixed;
@@ -411,10 +413,56 @@ body {
 }
 
 .movie-video {
+    flex-direction: column;
     flex: 1;
+    gap: 10px;
     display: flex;
     justify-content: center;
+    align-items: normal;
+}
+
+.audio-player {
+    display: flex;
     align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.audio-player button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    border: none;
+    font-size: 1.5rem; 
+    padding: 15px; 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.audio-player button:hover {
+    background-color: #d11a2a; 
+    color: white; 
+    transform: scale(1.1);
+}
+
+
+.progress-bar-container {
+    cursor: pointer;
+    width: 57%;
+    height: 6px;
+    background-color: #f7f6f6;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #e20000;
+    transition: width 0.1s ease;
+    border-radius: 2.5px;
 }
 
 .placeholder-video {
