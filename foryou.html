@@ -25,6 +25,12 @@
     <div id="foryou-page" class="content-page">
         <div class="profile-picture">
             <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW1kM3dpZmdtdmVjdm1vb2o5cDVwa213MGJjbXcyN3lsYmt3dTdiNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Profile Picture">
+            <div class="profile-overlay">
+                <h2 class="profile-title">About Me</h2>
+            <p>
+                I’m a software developer passionate about building functional and impactful solutions. I have experience designing and developing websites, creating interactive visualizations, collaborating on complex projects, and building and fine-tuning machine learning models.
+            </p>
+            </div>
             <div class="profile-buttons">
                 <button class="resume-button" onclick="window.location.href='Zen_Edwards_Resume copy.pdf'"> ▶ Resume</button>
                 <button class="contact-button" onclick="window.location.href='mailto:zanydaedwards@brandeis.edu'">ⓘ Contact Me</button>
@@ -76,17 +82,6 @@
 
         addMovieTiles('bottom-images');
 
-        function showPopup(text) {
-    const popup = document.getElementById('popup');
-    const popupText = document.getElementById('popup-text');
-    popupText.textContent = text; // Set the text inside the pop-up
-    popup.classList.remove('hidden'); // Show the pop-up
-}
-
-function closePopup() {
-    const popup = document.getElementById('popup');
-    popup.classList.add('hidden'); // Hide the pop-up
-}
 
     </script>
 </body>
