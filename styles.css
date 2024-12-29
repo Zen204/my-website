@@ -23,21 +23,29 @@ a.text-link {
 
 /* Top Bar */
 .top-bar {
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     padding: 15px 15px;
-    background-color: #141414;
-    top: 0;
-    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.014); 
+    transition: background-color 0.3s ease; 
+    box-sizing: border-box;
+}
+
+.top-bar.scroll-black {
+    background-color: black; 
 }
 
 .top-bar h1 {
-    color:#e01d2d;
-    font-size: 3.2rem;
+    color: #e01d2d;
+    font-size: 2.5rem;
 }
 
 .menu-button {
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -98,12 +106,12 @@ a.text-link {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100%;
     background-color: black;
 }
 
 .intro-text {
     font-size: 5rem;
+    text-align: center;
     color: red;
     font-weight: bold;
     display: flex;
@@ -183,6 +191,10 @@ a.text-link {
 .profile-picture {
     display: flex;
     width: 100%;
+    justify-content: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 850px;
     flex-direction: column;
     align-items: center;
@@ -193,7 +205,6 @@ a.text-link {
 .profile-picture img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -211,10 +222,12 @@ a.text-link {
     line-height: 1.3;
 }
 .profile-title {
+    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(236, 251, 31);
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bold;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     text-align: left; 
 }
@@ -312,6 +325,7 @@ a.text-link {
     transform: translate(-50%, -50%) scale(1.1); 
     transition: transform 0.3s ease, background-color 0.3s ease; 
 }
+
 
 /* Watch Movies */
 
