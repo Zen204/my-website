@@ -74,6 +74,16 @@
     </footer>
 
     <script>
+
+window.addEventListener('scroll', () => {
+    const topBar = document.querySelector('.top-bar');
+    if (window.scrollY > 50) { 
+        topBar.classList.add('scroll-black');
+    } else {
+        topBar.classList.remove('scroll-black');
+    }
+});
+
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar');
             sidebar.style.display = sidebar.style.display === 'flex' ? 'none' : 'flex';
