@@ -52,8 +52,8 @@ a.text-link {
     color: #ff0a05; 
     margin: 0; 
     padding: 0; 
-    line-height: 0.5;
-    font-size: 2rem;
+    line-height: 0.4;
+    font-size: 3rem;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
 
