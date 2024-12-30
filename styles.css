@@ -214,7 +214,7 @@ a.text-link {
 #loading-screen img {
     transform: rotate(90deg); 
     width: 100vh; 
-    height: 100vw;
+    height: 150vw;
     object-fit: cover; 
 }
 
