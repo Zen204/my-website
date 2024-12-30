@@ -168,12 +168,11 @@ a.text-link {
     text-align: center;
     height: 100vh;
     background-color: rgb(21, 21, 21);
-    font-size: 80px;
+    font-size: 0px;
 }
 
 .profile-container {
     display: flex;
-    gap: 2rem;
     justify-content: center;
 }
 
@@ -184,6 +183,8 @@ a.text-link {
 }
 
 .profile img {
+    margin-top: 20%;
+    margin-bottom: 0%;
     width: 100%;
     border-radius: 8px;
     border: 2px solid white;
@@ -195,8 +196,8 @@ a.text-link {
 }
 
 .profile p {
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
+    margin-top: 5%;
+    font-size: 2rem;
 }
 
 /* Loading Screen */
