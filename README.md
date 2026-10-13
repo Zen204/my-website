@@ -77,7 +77,7 @@ Follow the link to my site: https://zen204.github.io/my-website/
 ## Contact
 
 Feel free to connect with me via:
--  **[Email](zanydaedwards@brandeis.edu)**
+-  **[Email](zenedwards04@gmail.com)**
 - **[LinkedIn](https://www.linkedin.com/in/zenedwards/)**
 
 ---
